@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background-start: 330 86% 96%; /* #FDE2F3 -> #F7E9F0 (Blush Pink) */
+    --background-end: 270 60% 90%;   /* #D0BFFF -> #E5D4EF (Lavender Purple) */
+    --background: 330 86% 96%; /* Fallback/solid background */
+    /* Middle color for gradient: approx #F0DFE8 (derived from new start/end) */
+
+    --foreground: 0 0% 29%;         /* Slate Gray #4A4A4A (Kept for text) */
+    --heading-color: 325 70% 67%;   /* Bold Pink #E86EB5 (for main headings) */
+
+    --card: 0 0% 100%;               /* White #FFFFFF */
+    --card-foreground: 0 0% 29%;     /* Slate Gray #4A4A4A */
+
+    --popover: 0 0% 100%;            /* White #FFFFFF */
+    --popover-foreground: 0 0% 29%;  /* Slate Gray #4A4A4A */
+
+    --primary: 322 33% 62%;          /* Pastel Orchid / Vibrant Lavender #C27BA0 (for UI elements) */
+    --primary-foreground: 0 0% 100%; /* White #FFFFFF */
+
+    --secondary: 76 17% 61%;         /* Dusty Olive #A3B18A (Kept from previous theme for highlights) */
+    --secondary-foreground: 0 0% 100%;/* White #FFFFFF */
+
+    --muted: 330 60% 95%;            /* Lighter pinkish, derived from new background */
+    --muted-foreground: 0 0% 45%;    /* Lighter Slate Gray */
+
+    --accent: 300 45% 75%;           /* Soft Violet #B983FF (Alternative accent) -> Using primary as main accent */
+                                     /* Using primary #C27BA0 as main accent for consistency */
+    --accent-foreground: 0 0% 100%;  /* White #FFFFFF */
+
+    --destructive: 0 44% 44%;        /* Rosewood #A33F3F (for alerts) */
+    --destructive-foreground: 0 0% 98%;/* Off-white */
+
+    --border: 270 40% 88%;           /* Light Lavender Border, derived from new background-end */
+    --input: 0 0% 100%;              /* White #FFFFFF */
+    --ring: 322 33% 62%;             /* Pastel Orchid / Vibrant Lavender #C27BA0 (same as primary) */
+
+    --chart-1: 322 33% 62%;          /* Primary */
+    --chart-2: 325 70% 67%;          /* Heading color */
+    --chart-3: 76 17% 61%;           /* Secondary (Dusty Olive) */
+    --chart-4: 270 45% 78%;          /* Lighter Lavender Purple */
+    --chart-5: 330 50% 85%;          /* Lighter Blush Pink */
+    
+    --radius: 0.5rem;
+
+    /* Sidebar specific theme - adjust to match overall softer theme */
+    --sidebar-background: 320 50% 94%; /* Softer pinkish/lavender for sidebar, lighter */
+    --sidebar-foreground: 0 0% 25%;   /* Darker Slate Gray */
+    --sidebar-primary: 322 33% 62%;   /* Pastel Orchid (same as main primary) */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 322 33% 72%;    /* Lighter Pastel Orchid for hover */
+    --sidebar-accent-foreground: 0 0% 20%; /* Darkest Slate Gray for hover text */
+    --sidebar-border: 320 40% 88%;    /* Softer pinkish/lavender border for sidebar */
+    --sidebar-ring: 322 33% 62%;      /* Pastel Orchid for focus rings */
+  }
+
+  .dark {
+    --background-start: 330 20% 18%; /* Darker Blush Pink */
+    --background-end: 270 30% 22%;   /* Darker Lavender Purple */
+    --background: 330 20% 18%; 
+    /* Middle color for dark gradient: approx darker #F0DFE8 */
+
+    --foreground: 330 40% 88%;       /* Light Pinkish Lavender text */
+    --heading-color: 325 70% 75%;     /* Brighter Pink #F092C8 */
+
+    --card: 300 15% 25%;              /* Dark Card Background (e.g. dark mauve/purple) */
+    --card-foreground: 330 40% 88%;   
+
+    --popover: 300 15% 25%;           
+    --popover-foreground: 330 40% 88%;
+
+    --primary: 322 40% 70%;           /* Brighter Lavender #D195B8 */
+    --primary-foreground: 0 0% 10%;    /* Dark text for contrast */
+
+    --secondary: 76 20% 50%;          /* Darker Dusty Olive */
+    --secondary-foreground: 0 0% 95%;  /* Light text */
+
+    --muted: 320 20% 28%;             /* Dark Muted Pink/Purple */
+    --muted-foreground: 330 30% 75%;  
+
+    --accent: 322 40% 70%;            /* Brighter Lavender #D195B8 */
+    --accent-foreground: 0 0% 10%;     /* Dark text for contrast */
+
+    --destructive: 0 40% 50%;         /* Brighter Rosewood */
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 270 25% 38%;            /* Dark Lavender Border */
+    --input: 300 10% 22%;             /* Dark input background */
+    --ring: 322 40% 70%;              /* Brighter Lavender Ring */
+
+    --chart-1: 322 40% 70%;
+    --chart-2: 325 70% 75%;
+    --chart-3: 76 20% 50%;
+    --chart-4: 270 40% 60%;
+    --chart-5: 330 45% 70%;
+
+    /* Dark Sidebar specific theme */
+    --sidebar-background: 300 18% 20%; /* Darker mauve/purple sidebar */
+    --sidebar-foreground: 330 35% 82%; /* Light Pinkish text */
+    --sidebar-primary: 322 40% 70%;    /* Brighter Lavender active */
+    --sidebar-primary-foreground: 0 0% 10%; /* Dark text */
+    --sidebar-accent: 300 12% 30%;     /* Hover Darker mauve/purple */
+    --sidebar-accent-foreground: 330 35% 92%; /* Very light text */
+    --sidebar-border: 300 12% 28%;
+    --sidebar-ring: 322 40% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold; /* Apply Inter font and bold to headings */
+    color: hsl(var(--heading-color)); /* Apply specific heading color */
+  }
+  body {
+    @apply text-foreground font-sans; /* Apply Poppins/generic sans-serif font to body */
+    background-image: linear-gradient(to bottom, hsl(var(--background-start)), hsl(330 70% 92%), hsl(var(--background-end))); /* #FDE2F3 (start), #E4BAD4 (middle), #D0BFFF (end) */
+    min-height: 100vh;
+  }
+  .dark body {
+    background-image: linear-gradient(to bottom, hsl(var(--background-start)), hsl(330 25% 20%), hsl(var(--background-end))); /* Dark gradient equivalent */
+  }
+}
