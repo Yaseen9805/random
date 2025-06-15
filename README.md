@@ -1,16 +1,16 @@
-# ✨ SwaSakhi: Your Ultimate Pregnancy & Postpartum Companion! ✨
+# ✨ SwaSakhi: Your Ultimate Pregnancy,Postpartum & Period Companion! ✨
 
 [![SwaSakhi Logo](https://placehold.co/600x200/A88FAC/F7F0F5?text=SwaSakhi&font=Poppins)](https://swasakhi.example.com)
 
-**Tired of juggling a million apps and websites during the most transformative journey of your life? SwaSakhi is here to simplify, support, and soothe!** 🤰🤱💖
+**Tired of juggling a million apps and websites to track your periods, navigate pregnancy, and get postpartum support? SwaSakhi is here to simplify, support, and soothe you through every phase of your reproductive health journey! 🌸🤰🤱💖
 
-SwaSakhi is not just an app; it's your AI-powered best friend, your personal wellness coach, your community hub, and your go-to resource for everything pregnancy and postpartum. We're making motherhood easier, one feature at a time!
+SwaSakhi is not just an app; it's your AI-powered best friend, your wellness coach, your community hub, and your go-to resource for everything related to periods, pregnancy, and postpartum. We're making womanhood easier, one feature at a time!
 
 ---
 
 ## 🚀 Why SwaSakhi is a Game-Changer 🚀
 
-Navigating pregnancy and new motherhood can be overwhelming. Information is scattered, support can feel distant, and tracking your well-being often takes a backseat. SwaSakhi centralizes everything you need into one beautiful, intuitive, and *calming* platform.
+Navigating your menstrual cycle, pregnancy, and new motherhood can be overwhelming. Information is scattered, support can feel distant, and tracking your well-being often takes a backseat. SwaSakhi centralizes everything you need—across periods, pregnancy, and postpartum—into one beautiful, intuitive, and calming platform.
 
 ---
 
