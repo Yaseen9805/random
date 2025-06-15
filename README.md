@@ -151,6 +151,3 @@ Got feedback or ideas? We'd love to hear from you!
 
 &copy; 2024 SwaSakhi by Team Coin Toss. All Rights Reserved.
 Built with ❤️ and lots of ☕!
-
-"# random" 
-"# random" 
