@@ -2,7 +2,7 @@
 // Content will be migrated or refactored.
 // This file can be deleted after migration is complete if it's no longer directly routed.
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader,CardFooter, CardTitle } from "@/components/ui/card";
 import { Brain, HeartPulse } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
